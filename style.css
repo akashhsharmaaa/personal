@@ -130,7 +130,7 @@ ul li{
 .ab{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-height: 60%;
+height: 70vh;
 }
 .about{
 
@@ -160,7 +160,7 @@ height: 60%;
 .sk{
 background-color:#808080;
 width: 100%;
-	height: 60%;
+	height: 60vh;
 }
 .skills{
 
@@ -185,7 +185,7 @@ width: 100%;
 	width: calc(400px - 30px);
 	height: calc(300px - 30px);
 	background: #000;
-	float:left;
+	float:center;
 	margin:15px;
 	box-sizing:border-box;
 	overflow: hidden;
@@ -255,7 +255,7 @@ color: #fff;
 .pr{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-	height: 70%;
+	height: 70vh;
 }
 .projects{
 
@@ -272,7 +272,7 @@ width: 100%;
 background-color:#808080;
 
 width: 100%;
-	height: 70%;
+	height: 70vh;
 }
 .certification{
 
@@ -295,7 +295,7 @@ width: 100%;
 .con{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-	height: 40%;
+	height: 40vh;
 }
 .contact{
 
