@@ -5,7 +5,7 @@
 
 header{
 	width: 100%;
-	height: 90vh;
+	height: 80vh;
 	background-image: url('bg2.jpg');
 	background-size: cover;
 	font-family: 'Dosis', sans-serif;
@@ -130,7 +130,7 @@ ul li{
 .ab{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-height: 70vh;
+height: 60vh;
 }
 .about{
 
@@ -160,7 +160,7 @@ height: 70vh;
 .sk{
 background-color:#808080;
 width: 100%;
-	height: 60vh;
+	height: 30vh;
 }
 .skills{
 
@@ -278,7 +278,7 @@ width: 100%;
 
 	margin:10px;
 	width:70%;
-	height:58%;
+	height:59%;
 	position:absolute;
 	left:15%;
 	background-image: url('2.jpg');
@@ -295,7 +295,7 @@ width: 100%;
 .con{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-	height: 40vh;
+	height: 20vh;
 }
 .contact{
 
