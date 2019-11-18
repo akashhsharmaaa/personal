@@ -57,7 +57,7 @@ ul li a:hover{
 	font-size:30px;
 	display:none;	
 }
-@media (max-width:600px)
+@media (max-width:300px)
 {
 	.toggle
 	{
@@ -136,8 +136,8 @@ height: 60vh;
 
 	margin:10px;
 	margin-left:32%;
-	width:35%;
-	height:35vh;
+	width:38%;
+	height:32vh;
 	position:center;
 	
 	background-image: url('akash.jpg');
