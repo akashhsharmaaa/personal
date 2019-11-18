@@ -183,7 +183,7 @@ width: 100%;
 .container .box 
 {  
 	position:relative;
-	width: calc(400px - 30px);
+	width: calc(400px - 80px);
 	height: calc(300px - 30px);
 	background: #000;
 	float:center;
