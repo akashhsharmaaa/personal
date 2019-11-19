@@ -133,7 +133,8 @@ width: 100%;
 height: 60vh;
 }
 .about{
-
+	margin:10px;
+	margin-left:37%;
 	position:center;
 	width:30%;
 	height:34vh;
