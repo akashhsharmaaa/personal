@@ -134,10 +134,10 @@ height: 60vh;
 }
 .about{
 
-	
+	position:center;
 	width:30%;
 	height:34vh;
-	position:center;
+	
 	
 	background-image: url('akash.jpg');
 	background-size:100% 100%;
