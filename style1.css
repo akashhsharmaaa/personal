@@ -264,7 +264,7 @@ color: #fff;
 .pr{
 background-color:rgba(27,31,34,0.85);
 width: 100%;
-	height: 75vh;
+	height: 60vh;
 }
 .projects{
 
@@ -274,7 +274,7 @@ width: 100%;
 	
 	position:relative;
 	width:60%;
-	height:56vh;
+	height:40vh;
 	
 	background: #4c4c4c;
 	border: solid 10px #2c2c2c;
