@@ -266,15 +266,13 @@ background-color:rgba(27,31,34,0.85);
 width: 100%;
 	height: 56vh;
 }
-.projects{
+.projects{margin:10px;
+	width:70%;
+	height:62%;
+	position:absolute;
+	left:15%;
 
-	margin:0 auto;
-	margin-top: 20px;
-	width:20%;
 	
-	position:relative;
-	width:75%;
-	height:40vh;
 	
 	background: #4c4c4c;
 	border: solid 10px #2c2c2c;
