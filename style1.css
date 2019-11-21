@@ -269,8 +269,8 @@ width: 100%;
 .projects{margin:10px;
 	width:70%;
 	height:62%;
-	position:relative;
-	
+	position:absolute;
+	left:12%;
 
 	
 	
