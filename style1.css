@@ -1,0 +1,406 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg2.jpg');
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.header_menu{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position:relative;
+/*	border:1px solid red;*/
+}
+
+
+ul{
+	width: 100%;
+	text-align: right;
+	
+}
+
+ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 3px;
+	padding-left: 15px;
+	
+}
+
+ul li a{
+	color:rgba(255, 255, 255, .8);
+	text-decoration: none;
+}
+
+ul li a:hover{
+	color:orange;
+}
+
+.toggle
+{
+	width:100%;
+	padding:10px 20px;
+	background:transparent;
+	text-align:right;
+	box-sizing: border-box;
+	color:#fff;
+	font-size:30px;
+	display:none;	
+}
+@media (max-width:768px)
+{
+	.toggle
+	{
+		display:block;
+	}
+
+
+ul{
+	width: 100%;
+	display:none;
+
+}
+ul li{
+	display:block;
+	text-align: center;
+
+}
+.active{
+	display:block;
+}
+}
+
+.header_content{
+	text-transform: uppercase;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color:rgba(255, 255, 255, .8);
+	transform: translate(-50%, -50%);
+	text-align: center;
+/*	border:1px solid red;*/
+}
+
+.header_content h2{
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.3em;
+}
+
+.header_content h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 0.3em;
+}
+
+.header_content button{
+	height: auto;
+	padding:8px 37px;
+	color:#fff;
+	font-size: 12px;
+	background-color: transparent;
+	margin-right: 20px;
+}
+
+.header_content button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.header_content button:hover{
+	background-color: orange;
+	border:1px solid white;
+}
+.ab{
+background-color:rgba(27,31,34,0.85);
+width: 100%;
+height: 60vh;
+}
+.about{
+	margin:10px;
+	margin-left:37%;
+	position:center;
+	width:30%;
+	height:34vh;
+	
+	
+	background-image: url('akash.jpg');
+	background-size:100% 100%;
+	box-shadow:1px 2px 10px white;
+	
+}
+.about1 ul {
+	color: white;
+	letter-spacing: .5px;
+	font-family:'Dosis', sans-serif;
+	text-align:center;
+	display:inline-block;
+	
+	
+}
+
+
+
+.sk{
+background-color:#808080;
+width: 100%;
+	height: 1%;
+}
+.skills{
+
+	margin:10px;
+	width:20%;
+	height:200px;
+	position:left;	
+}
+.container
+{
+	position:center;
+	width:100%;
+	height:5vh;
+	margin:50px auto;
+    
+	
+	
+				
+}
+.container .box 
+{  
+	position:relative;
+	width: calc(400px - 80px);
+	height: calc(300px - 30px);
+	background: #000;
+	float:center;
+	margin:15px;
+	box-sizing:border-box;
+	overflow: hidden;
+	border-radius:10px;
+
+}
+
+
+.container .box .icon 
+{   font-family: 'Dosis', sans-serif;
+     text-align:center;
+    font-size:30px;
+
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: #f00;
+	transition: 0.5s;
+	z-index: 1;
+}
+.container .box:hover .icon{
+    font-size:0px;
+	top:20px;
+	left: calc(50% - 40px);
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
+.container .box .icon .fa
+{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+transition: 0.5s;
+color: #fff;
+}
+.container .box:hover .icon .fa
+{
+	font-size:40px;
+    
+}
+.container .box .content{
+	position: absolute;
+	top:100% ;
+	height:calc(100% - 100px);
+	
+	padding: 20px;
+	box-sizing:border-box;
+	transition:0.5s;
+	opacity: 0; 
+}
+.container .box:hover .content
+{
+	top: 100px;
+	opacity:2;
+}
+
+.container .box .content li
+{
+	
+	margin-left:100px;
+	padding:0;
+	color : #fff;
+	
+}
+
+
+
+
+.pr{
+background-color:rgba(27,31,34,0.85);
+width: 100%;
+	height: 75vh;
+}
+.projects{
+
+	margin:0 auto;
+	margin-top: 20px;
+	width:20%;
+	
+	position:relative;
+	width:60%;
+	height:56vh;
+	
+	background: #4c4c4c;
+	border: solid 10px #2c2c2c;
+		
+}
+.slide_img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slide_img img{
+	width:100%;
+	height:100%;
+}
+#i1, #i2, #i3, #i4{
+	display: none;
+}
+.pre, .nxt
+{
+	width:12%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88,88,88,.4);
+	z-index:99;
+	cursor: pointer;
+}
+.pre{
+	left:0;
+}
+.nxt
+{
+	right: 0;
+}
+.nav{
+	width:100%;
+	height:11px;
+	bottom: 12%;
+	position: absolute;
+	text-align:center;
+	z-index: 99;
+}
+.dots{
+	top:-1px;
+	width:15px;
+	height:15px;
+	margin:0 2px;
+	position:relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+}
+.slide_img{
+	z-index:-1;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four{
+	z-index: 9;
+}
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4{
+	background: #fff;
+}
+
+.cert{
+background-color:#808080;
+
+width: 100%;
+	height: 75vh;
+}
+.certification{
+
+	margin:10px;
+	width:70%;
+	height:62%;
+	position:absolute;
+	left:15%;
+	background-image: url('2.jpg');
+	background-size:100% 100%;
+	box-shadow:1px 2px 10px white;
+	animation:slider 25s infinite none;
+}
+@keyframes slider{
+	0%{background-image:url('2.jpg');}
+	25%{background-image:url('1.jpg');}
+	50%{background-image:url('3.jpg');}
+	75%{background-image:url('4.jpg')}
+}
+.con{
+background-color:rgba(27,31,34,0.85);
+width: 100%;
+	height: 33vh;
+}
+.contact{
+
+	margin:18px;
+	width:30%;
+	height:5%;
+	position:right;
+	
+	text-align:left;
+	
+	font-family:'Dosis', sans-serif;
+	color:white;
+	
+	
+}
+.contact1{
+
+	
+	margin-left:44%;
+	margin-top:2%;
+	
+}
+h2{
+	
+ text-align:center;
+	font-size: 40px;
+	font-weight: 500;
+	
+	letter-spacing: 0.2em;
+	font-family: 'Dosis', sans-serif;
+	color:white;
+
+}
