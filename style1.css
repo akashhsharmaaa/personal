@@ -270,9 +270,9 @@ width: 100%;
 .projects{margin:50px;
 	width:72%;
 	height:62%;
-	position:absolute;
-	left:13%;
-	
+	position: absolute;
+        left:12%;
+
 	background: #4c4c4c;
 	border: solid 10px #2c2c2c;
 		
@@ -348,7 +348,7 @@ width: 100%;
 	background-color: transparent;
 	margin-right: 20px;
 	position:absolute;
-	left:46%;
+	left:44%;
 }
 .pr button a{
 	
